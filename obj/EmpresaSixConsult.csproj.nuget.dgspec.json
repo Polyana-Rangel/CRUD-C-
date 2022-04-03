@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Empresasixconsult\\EmpresaSixConsult\\EmpresaSixConsult.csproj": {}
+    "C:\\Users\\polyanarangel\\source\\repos\\CRUD-C-SHARP\\EmpresaSixConsult.csproj": {}
   },
   "projects": {
-    "C:\\Empresasixconsult\\EmpresaSixConsult\\EmpresaSixConsult.csproj": {
+    "C:\\Users\\polyanarangel\\source\\repos\\CRUD-C-SHARP\\EmpresaSixConsult.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Empresasixconsult\\EmpresaSixConsult\\EmpresaSixConsult.csproj",
+        "projectUniqueName": "C:\\Users\\polyanarangel\\source\\repos\\CRUD-C-SHARP\\EmpresaSixConsult.csproj",
         "projectName": "EmpresaSixConsult",
-        "projectPath": "C:\\Empresasixconsult\\EmpresaSixConsult\\EmpresaSixConsult.csproj",
+        "projectPath": "C:\\Users\\polyanarangel\\source\\repos\\CRUD-C-SHARP\\EmpresaSixConsult.csproj",
         "packagesPath": "C:\\Users\\polyanarangel\\.nuget\\packages\\",
-        "outputPath": "C:\\Empresasixconsult\\EmpresaSixConsult\\obj\\",
+        "outputPath": "C:\\Users\\polyanarangel\\source\\repos\\CRUD-C-SHARP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

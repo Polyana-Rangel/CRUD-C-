@@ -22,7 +22,7 @@ namespace EmpresaSixConsult.Controllers
             return View();
         }
 
-        public IActionResult Excluir()
+        public IActionResult Excluirconformacao()
         {
             return View();
         }

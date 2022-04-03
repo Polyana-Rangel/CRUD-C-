@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Listagem de Contatos";
+}
+
+<div class=" text-center"
+
+
+     <div class= "d-grid gap-2 d-md-flex justify-content-md-start" >  
+         <a class=" btn btn-primary" role="button" asp-controller="Contato" asp-action="Criar">Adicionar Novo Contato</a>
+     </div>
+
+     <h1 class="display-4">Listagem de contatos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Sobrenome</th>
+            <th scope="col">Email</th>
+            <th scope="col">Celular</th>
+            <th scope="col">Chapa</th>
+            <th scope="col">Líder</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Luiz</td>
+            <td>Silva</td>
+            <td>izabel.soares@sixgroup.com</td>
+            <td>22 998645055</td>
+            <td>172.270.695</td>
+            <td>Líder</td>
+            <td>
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary">Editar</a>
+                    <a role="button" class="btn btn-danger">Excluir</a>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>João </td>
+            <td>Oliveira</td>
+            <td>joao.oliveira@sixgroup.com</td>
+            <td>22 998645055</td>
+            <td>172.270.674</td>
+            <th scope="col"></th>
+            <td>
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary">Editar</a>
+                    <a role="button" class="btn btn-danger">Excluir</a>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">1</th>
+            <td>Vanessa</td>
+            <td>Moraes</td>
+            <td>vanessa.moraes@sixgroup.com</td>
+            <td>22 998645055</td>
+            <td>172.270.687</td>
+            <th scope="col"></th>
+            <td>
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary">Editar</a>
+                    <a role="button" class="btn btn-danger">Excluir</a>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">1</th>
+            <td>Manoel</td>
+            <td>Gusmão</td>
+            <td>manoel.gusmao@sixgroup.com</td>
+            <td>22 998645095</td>
+            <td>172.270.487</td>
+            <td></td>
+            <td>
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary">Editar</a>
+                    <a role="button" class="btn btn-danger">Excluir</a>
+
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+

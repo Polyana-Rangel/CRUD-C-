@@ -1,15 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Controllers",
-    "\\EmpresaSixConsult",
-    "\\Models",
-    "\\obj",
-    "\\Properties",
-    "\\Views",
-    "\\Views\\Contato",
-    "\\Views\\Home"
+    ""
   ],
-  "SelectedNode": "\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\EmpresaSixConsult.sln",
   "PreviewInSolutionExplorer": false
 }

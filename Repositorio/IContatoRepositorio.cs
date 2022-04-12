@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmpresaSixConsult.Repositorio
 {
-    interface IContatoRepositorio
+    public interface IContatoRepositorio
     {
         ContatoModel Adicionar(ContatoModel contato);
     }

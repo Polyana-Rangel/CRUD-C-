@@ -20,5 +20,11 @@ namespace EmpresaSixConsult.Repositorio
             _bancoContext.SaveChanges();
             return contato;
         }
+
+        //implementar interface
+        public List<ContatoModel> BuscarTodos()
+        {
+            return _bancoContext.contatos.ToList();
+        }
     }
 }

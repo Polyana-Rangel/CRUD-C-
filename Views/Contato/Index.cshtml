@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<ContatoModel>
+@{
     ViewData["Title"] = "Listagem de Contatos";
 }
 
@@ -25,22 +26,28 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Luiz</td>
-            <td>Silva</td>
-            <td>izabel.soares@sixgroup.com</td>
-            <td>22 998645055</td>
-            <td>172.270.695</td>
-            <td>Líder</td>
-            <td>
-                <div class="btn-group" role="group">
-                    <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
-                    <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="Excluirconfirmacao">Excluir</a>
+        @if (Model != null && Model.Any())
+        {
+            foreach (ContatoModel contato in Model)
+            {
+                <tr>
+                    <th scope="row">@contato.Id</th>
+                    <td>@contato.Nome</td>
+                    <td>@contato.Nome</td>
+                    <td>@contato.Email</td>
+                    <td>@contato.Celular</td>
+                    <td>172.270.695</td>
+                    <td>Líder</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a role="button" class="btn btn-primary" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="Editar">Editar</a>
+                            <a role="button" class="btn btn-danger"  asp-route-id="@contato.Id"  asp-action="Excluirconfirmacao">Excluir</a>
 
-                </div>
-            </td>
-        </tr>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
         <tr>
             <th scope="row">2</th>
             <td>João </td>
@@ -51,7 +58,7 @@
             <th scope="col"></th>
             <td>
                 <div class="btn-group" role="group">
-                    <a role="button" class="btn btn-primary"asp-controller="Contato" asp-action="Editar">Editar</a>
+                    <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Editar">Editar</a>
                     <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="Excluirconfirmacao">Excluir</a>
 
                 </div>
